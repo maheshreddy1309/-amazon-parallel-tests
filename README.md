@@ -25,3 +25,19 @@ Configured using 2 workers in playwright.config.js
 
 ## Notes
 Amazon may block automation due to bot detection. Tests handle this gracefully.
+
+## LambdaTest Cloud Execution (Bonus)
+
+Tests can also be executed on LambdaTest cloud.
+
+### Setup
+
+export LT_USERNAME=your_username  
+export LT_ACCESS_KEY=your_access_key  
+
+### Run
+
+npm test  
+
+This runs tests on real cloud browsers in parallel.
+
